@@ -1,15 +1,15 @@
 #!/bin/python
 
 """
-# All in One video Downloader By ToxicNoob Inc.
-# Author: ToxicNoob Inc.
-# GitHub: https://github.com/toxic-noob
-# Supports some Famous video sharing Websites
-# Including: YouTube, Facebook, Tiktok, Insproces
-# Downloaded files are saved in /sdcard/Download
-# Used online API to Download Videos, so no extra Libraries Needed
-# Supports MP4 + MP3
-# Supports YouTube Playlist Downloading
+# Video download criado por WanderWr.
+# Author: Wander França.
+# GitHub: https://github.com/wanderfranca/DownPro
+# Aceita link de vários sites famosos
+# Incluindo: YouTube, Facebook, Tiktok, Insproces
+# Arquivos baixados em /sdcard/Download
+# Usando API online para Download Videos, sem LIB extras
+# Suporte a MP4 + MP3
+# Suporte a YouTube Playlist
 
 # API Resources:
     01. yt1s.com (For single YouTube Videos)
@@ -45,9 +45,9 @@ def logo():
     print("\033[94m│    \033[92m▌ ▌▌ ▌▐▐▐ ▌ ▌▐ ▌ ▌▞▀▌▌ ▌▌  ▌  ▌ ▌\033[94m   │".center(columns+15))
     print("\033[94m│    \033[92m▀▀ ▝▀  ▘▘ ▘ ▘ ▘▝▀ ▝▀▘▝▀▘▘  ▘  ▝▀ \033[94m   │".center(columns+15))
     print("\033[94m│                              \033[94m          │".center(columns+9))
-    print("\033[94m│ \033[95mAuthor : ToxicNoob                     \033[94m│".center(columns+15))
+    print("\033[94m│ \033[95mAuthor : WanderFranca         \033[94m│".center(columns+15))
     print("│ \033[95mTool   : All Video Downloader          \033[94m│".center(columns+9))
-    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+9))
+    print("│ \033[95mGitHub : https://github.com/wanderfranca \033[94m│".center(columns+9))
     print("│ \033[95mCoder  : HunterSl4d3               \033[37mV1.0\033[94m│".center(columns+15))
     print("\033[94m└────────────────────────────────────────┘".center(columns+5))
 
@@ -86,10 +86,10 @@ def getOptionNumber(o):
 #Print Video Details
 def printDetails(videoTitle, videoSource, videoDuration, videoExt):
     logo()
-    psb("\ncGreen    [cWhite*cGreen] Video Title: cWhite" + (videoTitle if videoTitle == "YouTube" else videoTitle.title()))
-    psb("cGreen    [cWhite*cGreen] Video Duration: cWhite" + videoDuration)
-    psb("cGreen    [cWhite*cGreen] Video Source: cWhite" + videoSource)
-    psb("\ncGreen    [cWhite#cGreen] cWhiteChoose Your File Format:\n")
+    psb("\ncGreen    [cWhite*cGreen] Titulo: cWhite" + (videoTitle if videoTitle == "YouTube" else videoTitle.title()))
+    psb("cGreen    [cWhite*cGreen] Duracao: cWhite" + videoDuration)
+    psb("cGreen    [cWhite*cGreen] Fonte: cWhite" + videoSource)
+    psb("\ncGreen    [cWhite#cGreen] cWhiteSelecione seu formato:\n")
     
     sl = 1
     for qual in videoExt:
@@ -110,7 +110,7 @@ def printDetails(videoTitle, videoSource, videoDuration, videoExt):
 
 
 #####################################
-# Video Dowenload Processes Starting Here
+# Video Download Processes Starting Here
 #
 # 01. Process FaceBook Video Download
 # 02. Process Random Website Video Download
