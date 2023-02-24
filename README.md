@@ -7,14 +7,14 @@ The Ultimate Audio/Video Downloader
 <li> Download em alta velocidade
 <li> Open Source
 
-## Commands:
+## Comandos:
 ```
 apt update -y
 apt upgrade -y
 pkg install python git wget -y
 pip install requests bs4
 git clone https://github.com/wanderfranca/DownPro
-cd D-Pro
+cd DownPro
 python d-pro.py
 ```
 
