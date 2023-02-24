@@ -7,7 +7,7 @@ The Ultimate Audio/Video Downloader
 <li> Download em alta velocidade
 <li> Open Source
 
-## Comandos:
+## Instalação (execução):
 ```
 apt update -y
 apt upgrade -y
